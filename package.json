@@ -1,0 +1,20 @@
+{
+  "name": "aero-land",
+  "version": "1.0.0",
+  "description": "Aero Land - a Frutiger Aero open-world multiplayer sandbox with mini-games",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"node server/server.js\" \"vite\"",
+    "build": "vite build",
+    "start": "node server/server.js",
+    "serve": "npm run build && npm start"
+  },
+  "dependencies": {
+    "three": "^0.169.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "vite": "^5.4.8"
+  }
+}

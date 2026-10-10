@@ -1,0 +1,10 @@
+{
+  "name": "Aero Land",
+  "short_name": "Aero Land",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#7fd8ff",
+  "theme_color": "#3fb8ff",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
